@@ -32,5 +32,10 @@ namespace Classes
         {
             Employees.Add(NewEmployee);
         }
+
+        public void ShowList()
+        {
+            Console.WriteLine(/*"Jane Doe works for Acme, Inc. as Lion Tamer since 3/23/15."*/)
+        }
     }
 }
