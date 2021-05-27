@@ -1,7 +1,9 @@
 ﻿using System;
 
+
 namespace Classes
 {
+    
     class Program
     {
         static void Main(string[] args)
@@ -15,6 +17,7 @@ namespace Classes
             NewCompanyObj.AddEmployee(Meg);
             NewCompanyObj.AddEmployee(Autumn);
             NewCompanyObj.AddEmployee(Taryn);
+            NewCompanyObj.ListEmployees();
             /*
                 Iterate the company's employee list and generate the
                 simple report shown above

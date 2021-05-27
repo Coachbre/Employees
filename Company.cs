@@ -33,9 +33,12 @@ namespace Classes
             Employees.Add(NewEmployee);
         }
 
-        public void ShowList()
+        public void ListEmployees()
         {
-            Console.WriteLine(/*"Jane Doe works for Acme, Inc. as Lion Tamer since 3/23/15."*/)
+            foreach(Employee Note in Employees) 
+            {
+            Console.WriteLine($"{Note.FirstName} {Note.LastName} works for NewCompanyCo as {Note.Title} since {Note.StartDate}");
+            }
         }
     }
 }
